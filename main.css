@@ -1,0 +1,146 @@
+body {
+	line-height: 20px;
+	font-size: 300;
+	font-size: 16px;
+}
+
+/*header part*/
+header section{
+	background-color: rgba(13, 70, 83, 0.78);
+	min-height: 650px;
+}/*
+header nav{
+	background-color: rgba(13, 70, 83, 0.78);
+}
+*/li a{
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+li a:hover{
+	color: #fff;
+	background-color: rgba(12, 184, 182, 0.21);
+}
+.header_fixed{
+	background: rgba(28,74,90, 0.9); 
+	animation-name: show_header;
+	animation-duration: 1s;
+}
+@keyframes show_header{
+	0%{
+		opacity: 0;
+		top:-70px;
+	}
+	100%{
+		opacity: 1;
+		top: 0;
+	}
+}
+
+select option{
+	background-color: rgba(28,74,90, 0.9);
+}
+header section > div{
+	padding-top: 150px;
+}
+header section > div h1{
+	font-size: 700;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+header section > div p{
+	margin-top: 15px;
+	line-height: 20px;
+}
+#banner{
+	background: url('img/bg-banner.jpg') no-repeat fixed;
+	background-size: cover;
+	background-attachment: relative;
+	min-height: 650px;
+	position: relative;
+}
+#btn{
+	margin-top: 20px;
+	background-color: rgba(12, 184, 182, 0.91);
+}
+
+/*main part*/
+main h2{
+	text-transform: uppercase;
+}
+main hr{
+	width: 60px;
+	color: #ffb737;
+}
+main p{
+	color: #999999;
+}
+main .box h4{
+	margin-top: 30px;
+}
+main .box p{
+	margin-top: 30px;
+}
+
+/*second main part*/
+.article > div {
+	width: 33%;
+	padding: 40px;
+	background-color: #0CB8B6;
+}
+.article > div p{
+	color: white;
+	margin-top: 20px;
+}
+.article > div a{
+	margin-top: 20px;
+}
+
+/*third main part*/
+figure svg{
+	color: #0CB8B6;
+}
+
+/*fourth main part*/
+summary hr{
+	width: 60px;
+	color: #ffb737;
+}
+
+/*footer part*/
+footer article h2{
+	text-transform: uppercase;
+}
+footer hr{
+	width: 60px;
+	color: #ffb737;
+}
+footer b{
+	font-size: 20px;
+}
+footer summary p{
+	color: #999999;
+	display: inline-block;
+	margin-left: 20px;
+}
+footer .con > div{
+	color: #999999;
+	margin-top: 30px;
+}
+
+
+
+@media(max-width: 1000px){
+	.article > div{
+		width: 100%;
+		margin-top: 10px;
+	}
+}
+
+
+
+
+
+
+
+

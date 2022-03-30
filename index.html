@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Medicine</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<!-- animate css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<!-- JS animate -->
+	<script src="js/wow.min.js"></script>
+	<script> new WOW().init(); </script>
+</head>
+<body>
+	<header id="banner">
+		<section id="home">
+			<nav class="navbar navbar-expand-lg fixed-top header">
+				<div class="container">
+					<a href="#" class="navbar-brand text-warning">
+						<img src="img/logo.png" width="110">
+					</a>
+					<select class="bg-transparent text-white p-2 rounded">
+						<option value="en">en</option>
+						<option value="ru">ru</option>
+						<option value="kz">kz</option>
+					</select>
+					<button type="button" class="navbar-toggler navbar-dark" data-bs-toggle="collapse" data-bs-target="#menu">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<ul class="navbar-nav justify-content-end navbar-collapse collapse" id="menu">
+					  	<li class="nav-item">
+					    	<a class="nav-link active lng-header-1" href="#home">home</a>
+					  	</li>
+					  	<li class="nav-item">
+					   		<a class="nav-link lng-header-2" href="#service">service</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link lng-header-3" href="#about">about</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link lng-header-4" href="#testimonial">testimonial</a>
+					  	</li>
+					  	<li class="nav-item">
+					  		<a class="nav-link lng-header-5" href="#contact">contact</a>
+					  	</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="container">
+		        <div class="text-center text-white">
+		            <img src="img/logo.png" class="img-responsive">
+		            <h1 class="lng-home-1">Healthcare at your desk!!</h1>
+		            <p class="lng-home-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
+		            <a href="#contact" class="btn text-white lng-home-3" id="btn">Make an Appointment.</a>
+		        </div>
+		    </div>
+		</section>
+	</header>
+
+	<main>
+		<section class="mt-5" id="service">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 animate__animated animate__fadeInLeft wow">
+						<h2 class="ser-title lng-service-1">Our Service</h2>
+				        <hr style="height: 3px;">
+				        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
+					</div>
+					<div class="col-lg-4 animate__animated animate__fadeInRight">
+						<div class="box">
+							<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-headset text-info" viewBox="0 0 16 16">
+							  <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+							</svg>
+							<h4 class="lng-service-2">24 Hour Support</h4>
+              				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="box mt-5">
+							<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-globe text-info" viewBox="0 0 16 16">
+							  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+							</svg>
+							<h4 class="lng-service-3">Emergency Services</h4>
+              				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 animate__animated animate__fadeInRight">
+						<div class="box">
+							<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-lines-fill text-info" viewBox="0 0 16 16">
+							  <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+							</svg>
+							<h4 class="lng-service-4">Medical Counseling</h4>
+              				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="box mt-5">
+							<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-alarm-fill text-info" viewBox="0 0 16 16">
+							  <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/>
+							</svg>
+							<h4 class="lng-service-5">Premium Healthcare</h4>
+              				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<article class="mt-5 mb-5 container">
+			<div class="row article text-white animate__animated animate__zoomIn wow">
+				<div class="col-lg-4 col-md-12">
+					<h3 class="lng-service-6">Emergency Case</h3>
+		            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		            tempor incididunt ut labore et dolore magna aliqua. </p>
+		            <a href="#" class="btn btn-outline-light lng-service-7">READ MORE</a>
+				</div>
+				<div class="col-lg-4 ms-lg-1">
+					<h3 class="lng-service-8">Emergency Case</h3>
+		            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		            tempor incididunt ut labore et dolore magna aliqua.</p>
+		            <a href="#" class="btn btn-outline-light lng-service-9">READ MORE</a>
+				</div>
+				<div class="col-lg-4 ms-lg-1">
+					<h3 class="lng-service-10">Opening Hours</h3>	
+		            <table border="1" style="margin-top: 20px;">
+		                <tr>
+		                	<td>Monday - Friday</td>
+		                    <td>8.00 - 17.00</td>
+		                </tr>
+		                <tr>
+		                    <td>Saturday</td>
+		                    <td>9.30 - 17.30</td>
+		                </tr>
+		                <tr>
+		                    <td>Sunday</td>
+		                    <td>9.30 - 15.00</td>
+		                </tr>
+		            </table>
+				</div>
+			</div>
+		</article>
+
+		<figure class="container-fluid bg-light" id="about">
+			<div class="container">
+				<div class="row p-5">
+					<div class="col-lg-4 animate__animated animate__fadeInLeft wow">
+						<h2 class="head-title lg-line lng-service-11">The Medilap <br>Ultimate Dream</h2>
+			            <hr style="height: 3px;">
+			            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+			            <a href="#" class="lng-service-12" style="color: #0cb8b6; padding-top:10px;">Know more..</a>
+					</div>
+					<div class="col-lg-8">
+						<div class="row mt-md-3">
+							<div class="col-lg-2 animate__animated animate__fadeInLeft wow">
+								<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+								  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+								</svg>
+							</div>
+							<div class="col-lg-10 animate__animated animate__fadeInRight wow">
+								<h3 class="lng-service-13">It's something important you want to know.</h3>
+                			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-2 animate__animated animate__fadeInLeft wow">
+								<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+								  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+								</svg>
+							</div>
+							<div class="col-lg-10 animate__animated animate__fadeInRight wow">
+								<h3 class="lng-service-14">It's something important you want to know.</h3>
+                			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</figure>
+
+		<summary class="mt-5 mb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 animate__animated animate__zoomIn wow">
+						<h2 class="lng-about-1">MEET OUR DOCTORS!</h2>
+						<hr style="height: 3px;">
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 animate__animated animate__zoomIn wow">
+						<div class="card" style="width: 18rem;">
+						  	<img src="img/doctor1.jpg" class="card-img-top">
+						  	<div class="card-body">
+						    	<h5 class="card-title lng-doc-1">Iai Donas</h5>
+						    	<p class="card-text">Doctor</p>
+						    	<a href="#" class="btn btn-outline-info lng-btn-1">Go somewhere</a>
+						  	</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 animate__animated animate__zoomIn wow">
+						<div class="card" style="width: 18rem;">
+						  	<img src="img/doctor2.jpg" class="card-img-top">
+						  	<div class="card-body">
+						    	<h5 class="card-title lng-doc-2">Iai Donas</h5>
+						    	<p class="card-text">Doctor</p>
+						    	<a href="#" class="btn btn-outline-info lng-btn-2">Go somewhere</a>
+						  	</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 animate__animated animate__zoomIn wow">
+						<div class="card" style="width: 18rem;">
+						  	<img src="img/doctor3.jpg" class="card-img-top">
+						  	<div class="card-body">
+						    	<h5 class="card-title lng-doc-3">Iai Donas</h5>
+						    	<p class="card-text">Doctor</p>
+						    	<a href="#" class="btn btn-outline-info lng-btn-3">Go somewhere</a>
+						  	</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 animate__animated animate__zoomIn wow">
+						<div class="card" style="width: 18rem;">
+						  	<img src="img/doctor4.jpg" class="card-img-top">
+						  	<div class="card-body">
+						    	<h5 class="card-title lng-doc-4">Iai Donas</h5>
+						    	<p class="card-text">Doctor</p>
+						    	<a href="#" class="btn btn-outline-info lng-btn-4">Go somewhere</a>
+						  	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</summary>
+	</main>
+
+	<footer>
+		<article class="bg-light" id="testimonial">
+			<div class="container">
+				<div class="row p-5">
+					<div class="col-12 animate__animated animate__zoomIn wow">
+						<h2>see what patients are saying?</h2>
+						<hr style="height: 3px;">
+					</div>
+					<div class="col-md-4 col-sm-12 animate__animated animate__zoomIn wow">
+						<div class="card border-dark p-2 bg-light">
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				    	</div>
+				    	<div class="mt-1">
+				    		<a href="#"><img src="img/thumb.png" alt="" class="img-responsive"></a>
+				    		<b class="lng-name-1">Alex Texas</b>
+				    	</div>
+					</div>
+					<div class="col-md-4 col-sm-12 mt-lg-0 mt-sm-2 animate__animated animate__zoomIn wow">
+						<div class="card border-dark p-2 bg-light">
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				    	</div>
+				    	<div class="mt-1">
+				    		<a href="#"><img src="img/thumb.png" alt="" class="img-responsive"></a>
+				    		<b class="lng-name-2">Alex Texas</b>
+				    	</div>
+					</div>
+					<div class="col-md-4 col-sm-12 mt-lg-0 mt-sm-2 animate__animated animate__zoomIn wow">
+						<div class="card border-dark p-2 bg-light">
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				    	</div>
+				    	<div class="mt-1">
+				    		<a href="#"><img src="img/thumb.png" alt="" class="img-responsive"></a>
+				    		<b class="lng-name-3">Alex Texas</b>
+				    	</div>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<section class="bg-dark">
+			<div class="container">
+				<div class="row text-white p-5">
+					<div class="col-md-2"></div>
+					<div class="text-end-md col-md-4 col-sm-12 animate__animated animate__fadeInLeft wow">
+			          	<h2 class="lng-1">« A few words<br> about us »</h2>
+			        </div>
+			        <div class="col-md-4 col-sm-12 animate__animated animate__fadeInRight wow">
+			          	<p class="lng-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a typek</p>
+			          	<p class="text-end text-info"><i>— Medilap Healthcare</i></p>
+			        </div>
+				</div>
+			</div>
+		</section>
+
+		<summary id="contact">
+			<div class="container">
+				<div class="row p-5">
+					<div class="col-12 animate__animated animate__fadeInLeft wow">
+						<h2 class="lng-3">CONTACT US</h2>
+						<hr style="height: 3px; width: 60px;">
+					</div>
+					<div class="col-md-4 col-sm-12 con animate__animated animate__fadeInLeft wow">
+						<h3 class="lng-4">Contact info</h3>
+						<div class="mt-5">
+							<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
+							  <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
+							  <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
+							</svg>
+							<p class="lng-5">321 Awesome Street <br> New York, NY 17022</p>
+						</div>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+								<path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+								<path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+							</svg>
+							<p>info@companyname.com</p>
+						</div>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+							  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+							</svg>
+							<p>+1 800 123 1234</p>
+						</div>
+					</div>
+					<div class="col-md-8 col-sm-12 mt-lg-0 mt-sm-4 animate__animated animate__fadeInRight wow">
+						<form action="mail.php" method="post">
+							<h3 class="lng-6">Having Any Query! Or Book an appointment</h3>
+							<input type="text" class="form-control mt-5" name="name" placeholder="Your name">
+							<input type="email" class="form-control mt-3" name="email" placeholder="Your email">	
+							<input type="text" class="form-control mt-3" name="phone" placeholder="Your phone">
+							<textarea class="form-control mt-3" rows="5" name="message" placeholder="Message"></textarea>
+							<input type="submit" class="form-control mt-3 bg-info text-white" value="Send message">
+						</form>
+					</div>
+				</div>
+			</div>
+		</summary>
+		<div class="bg-dark p-3" style="height: 50px;">
+			<h5 class="text-center text-warning animate__animated animate__zoomIn wow lng-7">
+				<i>Created by Merey Kopzhasar, Fatima Kemelova</i>
+			</h5>
+		</div>
+	</footer>
+
+	<script src="js/langArr.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
