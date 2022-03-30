@@ -1,6 +1,6 @@
 # MedicineWebsite
 This site has a uniqueness because this site is in 3 languages. This site was given by my web programming teacher as a bonus job. This site have beautiful design and code!
-
+#### responsive to any device
 ### Requirenments
 - You should have xampp or other application for server.
 - You should create Database
